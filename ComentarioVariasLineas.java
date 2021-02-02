@@ -1,10 +1,11 @@
 package testPack;
 
-public class ComentarioLinea {
+public class ComentarioVariasLineas {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println("Adios");
+		for(int i=0;i<6;i++)
+			System.out.print(i + " ");
 		System.out.println("FIN DE PROGRAMA");
 	}
 
